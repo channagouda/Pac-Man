@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pacman</OriginalElement>
+  <nodes>
+    <node x="0.0" y="129.0">pacman.Model</node>
+    <node x="-223.45053166897827" y="712.5">pacman.Model.TAdapter</node>
+    <node x="297.97341655108653" y="712.5">pacman.Pacman</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pacman.Model.TAdapter" target="pacman.Model" relationship="DEPENDENCY">
+      <point x="0.0" y="39.5" />
+      <point x="-128.95053166897827" y="104.0" />
+      <point x="120.0" y="104.0" />
+      <point x="0.0" y="-623.0" />
+    </edge>
+    <edge source="pacman.Model" target="pacman.Model.TAdapter" relationship="CREATE">
+      <point x="80.0" y="-623.0" />
+      <point x="200.0" y="104.0" />
+      <point x="-65.95053166897827" y="104.0" />
+      <point x="63.0" y="39.5" />
+    </edge>
+    <edge source="pacman.Model.TAdapter" target="pacman.Model" relationship="INNER_CLASS">
+      <point x="-63.0" y="39.5" />
+      <point x="-191.95053166897827" y="104.0" />
+      <point x="40.0" y="104.0" />
+      <point x="-80.0" y="-623.0" />
+    </edge>
+    <edge source="pacman.Pacman" target="pacman.Model" relationship="CREATE">
+      <point x="0.0" y="-39.5" />
+      <point x="372.47341655108653" y="1400.0" />
+      <point x="120.0" y="1400.0" />
+      <point x="0.0" y="623.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5515748031496063" showDependencies="true" x="128.22006472491898" y="806.0947757743875" />
+  <SelectedNodes>
+    <node>pacman.Pacman</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
